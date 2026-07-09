@@ -18,3 +18,5 @@ pipeline {
       grypeScan scanDest: "docker:${registry}:${BUILD_NUMBER}", repName: 'scanResult.txt', autoInstall:true
     }
 }
+  }
+}
